@@ -21,10 +21,10 @@ handlers.helloWorld = function (args, context) {
      var myObject = getPlayerInfo.Data.PlayerData.Value;
      log.info(myObject);
 
-     var itemToUpdate = myObject[22] + 1;
+     var itemToUpdate = myObject[1] + 1;
      log.info(itemToUpdate);
 
-     myObject[22] = itemToUpdate;
+     myObject[1] = itemToUpdate;
      log.info(myObject);
     //  var Update = server.UpdateUserData
     //      ({

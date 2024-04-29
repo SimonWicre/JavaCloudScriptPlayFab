@@ -1,6 +1,7 @@
 handlers.helloWorld = function (args, context) {
     
     // test 2 github on 4/25
+    // test github on 4/29
     // The pre-defined "currentPlayerId" variable is initialized to the PlayFab ID of the player logged-in on the game client. 
     // Cloud Script handles authenticating the player automatically.
     var message = "Hello " + currentPlayerId + "!";
